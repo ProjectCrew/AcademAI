@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>acad.ai</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+		<noscript><link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/noscript.css') }}</noscript>
+		<style>
+			/* CSS to center the form content */
+			.form-container {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header" class="alt style2">
+				<a href="#" class="logo"><strong>Acad</strong> <span>ai</span></a>
+			</header>
+
+			<!-- Banner -->
+			<!-- Note: The "styleN" class below should match that of the header element. -->
+
+			<!-- Main -->
+			<div id="main" align="center">
+
+				<!-- Two -->
+				<section id="contact">
+					<div class="inner">
+						<section>
+									<form action="/" method="post">
+										<label for="learn">What do you want to learn?</label>
+										<input type="text" name="learn" required><br><br>
+										<label for="level">What is your level?</label>
+										<input type="text" name="level" required><br><br>
+										<label for="days">How many days do you want to learn this skill in?</label>
+										<input type="text" name="days" required><br><br>
+										<label for="timezone">What is your timezone?</label>
+										<input type="text" name="timezone" required><br><br>
+										<input type="submit" value="Generate Schedule">
+    								</form>
+						</section>
+					</div>
+				</section>
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner" align="center">
+					<ul class="copyright">
+						<li>&copy; acad.ai</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	</body>
+</html>
