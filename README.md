@@ -35,8 +35,8 @@ To run this project locally or deploy it on your server, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/arnitxvansh/HACKRPI23.git
+   cd HACKRPI23
 
 2. Install the required dependencies:
 
